@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------
- Neuronal Population Modeling of Globular Bushy Cells -- Matlab Implementation 
+ Neuronal Population Model of Globular Bushy Cells -- Matlab Implementation 
 ----------------------------------------------------------------------------------
 
 %%% Versions %%% 
@@ -20,8 +20,10 @@ GBCmodelACC.m    : Adaptive Coincidence Counting model of GBC
 calcVSstat.m     : Code for calculating rate, vector strength, PSTh, ISIH, etc. 
 chooseGBCmodel.m : Code for generating GBC model parameters 
 
-PLNindex.mat : data index for PLN-type GBC instances (used by chooseGBCmodel.m) 
-OnLindex.mat : data index for PLN-type GBC instances (used by chooseGBCmodel.m) 
+PLNindex.mat : Data index for PLN-type GBC instances (used by chooseGBCmodel.m) 
+OnLindex.mat : Data index for OnL-type GBC instances (used by chooseGBCmodel.m) 
+
+PopulationData : Folder for population GBC data used in the paper 
 
 + Notes: See each program file and the reference below for more detailed descriptions. 
 
