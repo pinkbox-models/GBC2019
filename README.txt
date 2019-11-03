@@ -17,7 +17,7 @@ Go Ashida (University of Oldenburg) go.ashida@uni-oldenburg.de
 testGBCmodel.m   : Sample code for using the GBC model 
 GBCmodelACC.m    : Adaptive Coincidence Counting model of GBC 
 
-calcVSstat.m     : Code for calculating rate, vector strength, PSTh, ISIH, etc. 
+calcVSstat.m     : Code for calculating rate, vector strength, PSTH, ISIH, etc. 
 chooseGBCmodel.m : Code for generating GBC model parameters 
 
 PLNindex.mat : Data index for PLN-type GBC instances (used by chooseGBCmodel.m) 
