@@ -1,0 +1,72 @@
+This folder contains GBC population data used for the following paper: 
+
+Ashida G, Heinermann HT, Kretzberg J (2019) Submitted 
+"Neuronal Population Model of Globular Bushy Cells Covering Unit-to-unit Variability"
+
+
+++++++++++ GBCinstances.mat ++++++++++
+
+Response properties of 7520 PLN model instances and 4094 OnL instances. 
+
+PLN_params: model parameter values for each PLN instance
+OnL_params: model parameter values for each OnL instance
+
+PLN_toneVS: phase-locking of PLN instances (pure tone, 70 dB SPL)
+PLN_toneEI: entrainment of PLN instances (pure tone, 70 dB SPL)
+PLN_tailVS: phase-locking of PLN instances (tail-sync at 500 Hz, 95 dB SPL)
+PLN_SAM_VS: phase-locking of PLN instances (SAM 100Hz)
+
+OnL_toneVS: phase-locking of OnL instances (pure tone, 70 dB SPL)
+OnL_toneEI: entrainment of OnL instances (pure tone, 70 dB SPL)
+OnL_tailVS: phase-locking of OnL instances (tail-sync at 500 Hz, 95 dB SPL)
+OnL_SAM_VS: phase-locking of OnL instances (SAM 100Hz)
+
+AN_toneVS: phase-locking of model AN (pure tone, 70 dB SPL)
+AN_toneEI: entrainment of model AN (pure tone, 70 dB SPL)
+AN_tailVS: phase-locking of model AN (tail-sync at 500 Hz, 95 dB SPL)
+AN_SAM_VS: phase-locking of model AN (SAM 100Hz)
+
+Use sampleplotGBC.m to generate sample figures (tone VS, tone EI, tail-sync VS, SAM envelope VS). 
+See Fig 11, Fig 12D-F, Fig 13D-F in the paper for corresponding plots. 
+
+
+++++++++++ AllInstances.mat ++++++++++
+
+Response properties of all (=567,000) model instances used for selecting GBC-like models. 
+
+*** model parameterss ***
+Me : number of inputs 
+Ae : input amplitude (relative to threshold) 
+We : [ms] input time length (coincidence window)
+Tr : [ms] refractory period 
+Ta : [ms] adaptation time constant 
+Sa : adaptation strength 
+
+*** model responses ***
+SR: spontaneous spiking rate 
+DR: sound driven spiking rate (7000 Hz, 70 dB SPL)
+CV: ISI coefficient of variation (7000 Hz, 70 dB SPL)
+VS: vector strength (350 HZ, 70 dB SPL)
+EI: entrainment index (350 HZ, 70 dB SPL)
+
+size(SR) = size(DR) = size(CV) = size(VS) = size(EI) 
+= [ length(MeRange), length(AeRange), length(WeRange), length(TrRange), length(TaRange), length(SaRange) ]
+
+See Materials and Methods in the paper for detailed explanations. 
+
+
+++++++++++ FRA3500Hz.mat ++++++++++
+
+Example frequency response areas of AN and GBC models (CF=3500Hz). 
+
+Freqs: frequencies tested
+Levels: sound levels tested
+ANrate: spiking rate of AN model
+GBCrate: spiking rate of GBC model
+
+Use sampleplotFRA.m to generate a sample figure. 
+See Fig 14 in the paper for corresponding plots. 
+
+
+
+
