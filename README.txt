@@ -41,8 +41,10 @@ the functions "model_IHC_BEZ2018" and "model_Synapse_BEZ2018".
 
 %%% Reference %%% 
 
-Ashida G, Heinermann HT, Kretzberg J (2019) Submitted 
+Ashida G, Heinermann HT, Kretzberg J (2019) 
 "Neuronal Population Model of Globular Bushy Cells Covering Unit-to-unit Variability"
+PLoS Comput Biol 15: e1007563 
+https://doi.org/10.1371/journal.pcbi.1007563
 
 
 %%% Copyright/License %%% 
