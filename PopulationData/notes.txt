@@ -1,8 +1,9 @@
 This folder contains GBC population data used for the following paper: 
 
-Ashida G, Heinermann HT, Kretzberg J (2019) Submitted 
+Ashida G, Heinermann HT, Kretzberg J (2019) 
 "Neuronal Population Model of Globular Bushy Cells Covering Unit-to-unit Variability"
-
+PLoS Comput Biol 15: e1007563 
+https://doi.org/10.1371/journal.pcbi.1007563
 
 ++++++++++ GBCinstances.mat ++++++++++
 
